@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+const dotEvent = require("dot-event").default
+const dotTask = require("@dot-event/task").default
+
+const gcloud = require("../dist/gcloud").default
+
+const events = dotEvent()
+
+gcloud({ events })
+dotTask({ events })
+
+events
+  .task({
+    argv: process.argv.slice(2),
+    op: "gcloud",
+    path: process.cwd(),
+  })
+  .catch(function(e) {
+    console.error(e)
+    process.exit(1)
+  })
