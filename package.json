@@ -1,6 +1,6 @@
 {
   "name": "@dot-event/gcloud",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "dot-event operation",
   "keywords": [
     "dot-event",
@@ -55,12 +55,12 @@
   },
   "dependencies": {
     "@babel/runtime": "7.2.0",
-    "@dot-event/argv": "2.10.6",
-    "@dot-event/log": "0.13.2",
-    "@dot-event/spawn": "2.6.15",
-    "@dot-event/store": "6.0.5",
-    "@dot-event/task": "1.11.12",
-    "dot-event": "2.12.6",
+    "@dot-event/argv": "2.10.7",
+    "@dot-event/log": "0.13.3",
+    "@dot-event/spawn": "2.6.16",
+    "@dot-event/store": "6.0.6",
+    "@dot-event/task": "1.11.13",
+    "dot-event": "2.12.7",
     "husky": "1.2.0"
   },
   "devDependencies": {
