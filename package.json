@@ -60,6 +60,7 @@
     "@dot-event/spawn": "2.6.16",
     "@dot-event/store": "6.0.6",
     "@dot-event/task": "1.11.13",
+    "deepmerge": "3.0.0",
     "dot-event": "2.12.7",
     "husky": "1.2.0"
   },
