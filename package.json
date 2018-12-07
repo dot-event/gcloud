@@ -62,7 +62,8 @@
     "@dot-event/task": "1.11.13",
     "deepmerge": "3.0.0",
     "dot-event": "2.12.7",
-    "husky": "1.2.0"
+    "husky": "1.2.0",
+    "password-generator": "2.2.0"
   },
   "devDependencies": {
     "@babel/cli": "7.2.0",
