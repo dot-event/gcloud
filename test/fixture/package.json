@@ -1,5 +1,7 @@
 {
   "operations": {
-    "gcloud": {}
+    "gcloud": {
+      "test": true
+    }
   }
 }
