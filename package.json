@@ -1,6 +1,6 @@
 {
   "name": "@dot-event/gcloud",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "dot-event operation",
   "keywords": [
     "dot-event",
@@ -55,13 +55,13 @@
   },
   "dependencies": {
     "@babel/runtime": "7.2.0",
-    "@dot-event/argv": "2.10.7",
-    "@dot-event/log": "0.13.3",
-    "@dot-event/spawn": "2.6.16",
-    "@dot-event/store": "6.0.6",
-    "@dot-event/task": "1.11.13",
+    "@dot-event/argv": "2.10.8",
+    "@dot-event/log": "0.13.4",
+    "@dot-event/spawn": "2.6.17",
+    "@dot-event/store": "6.0.7",
+    "@dot-event/task": "1.11.14",
     "deepmerge": "3.0.0",
-    "dot-event": "2.12.7",
+    "dot-event": "2.12.8",
     "husky": "1.2.0",
     "password-generator": "2.2.0"
   },
