@@ -60,7 +60,7 @@
     "@dot-event/spawn": "2.6.17",
     "@dot-event/store": "6.0.7",
     "@dot-event/task": "1.11.14",
-    "@google-cloud/storage": "^2.3.3",
+    "@google-cloud/storage": "2.3.3",
     "deepmerge": "3.0.0",
     "dot-event": "2.12.8",
     "husky": "1.2.0",
