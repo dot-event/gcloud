@@ -41,6 +41,11 @@ test("gcloud cluster list", async () => {
     calls.push(event.options)
   )
 
+  await events.set(
+    ["tasks", "fixture", "gcloudConfig", "projects"],
+    ["project"]
+  )
+
   await run("--cluster-list")
 
   expect(calls.length).toBe(1)
